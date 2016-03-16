@@ -1,6 +1,6 @@
-## Mapbender installation 
+# Mapbender installation 
 
-# Mapbender3 Open Source Project
+### Mapbender3 Open Source Project
 
 The manditory system requirements to work on the mapbender3 open source project is: 
   - cURL
@@ -47,7 +47,7 @@ Create a configuration file called parameters.yml and copy the parameters.yml.di
 To get the dependencies for the mapbender project you would have to run composer:
  - ./composer.phar update
 
-# Mapbender Installation 
+### Mapbender Installation 
 To get the mapbender application you would have to download the mapbender zip and extract it to the /var/www/ directory in order to run the applicatiom. The system requirements and component dependencies require to run the actually application itself can be obtain by running:
  - sudo apt-get install php5 php5-pgsql php5-gd php5-curl php5-cli php5-sqlite sqlite php-apc php5-intl curl openssl
 
