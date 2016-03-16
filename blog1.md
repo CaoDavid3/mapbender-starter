@@ -48,7 +48,7 @@ To get the dependencies for the mapbender project you would have to run composer
  - ./composer.phar update
 
 # Mapbender Installation 
-The system requirements and component dependencies require to run the actually application itself can be obtain by running:
+To get the mapbender application you would have to download the mapbender zip and extract it to the /var/www/ directory in order to run the applicatiom. The system requirements and component dependencies require to run the actually application itself can be obtain by running:
  - sudo apt-get install php5 php5-pgsql php5-gd php5-curl php5-cli php5-sqlite sqlite php-apc php5-intl curl openssl
 
 Then reload apache to ensure that the compontest that you have just downloaded are up and running.
